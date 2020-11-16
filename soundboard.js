@@ -12,14 +12,10 @@ buttonElement1.onclick = function() {
     audio1.play();
 }
 
+buttonElement2.onclick = function() {
+    audio2.play();
+}
 
-buttonElement2.addEventListener('click', function() {
-
-    console.log('Button 2 was clicked!')
-})
-
-
-buttonElement3.addEventListener('click', function() {
-
-    console.log('Button 3 was clicked!')
-})
+buttonElement3.onclick = function() {
+    audio3.play();
+}

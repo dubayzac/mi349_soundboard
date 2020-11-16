@@ -7,18 +7,18 @@
     <title>Soundboard</title>
 </head>
 <body>
-    <button id = "button_1">
-        <audio src = "Snare2.wav"></audio>
+    <button id = "button_1" onclick="playSound('audio1')">
+        <audio id = "snare_audio" src = "Snare2.wav"></audio>
         Snare
     </button>
     
     <button id = "button_2">
-        <audio src = "Kick4.wav"></audio>
+        <audio id = "kick_audio" src = "Kick4.wav"></audio>
         Kick
     </button>
     
     <button id = "button_3">
-        <audio src = "HiHat6.wav"></audio>
+        <audio id = "hihat_audio" src = "HiHat6.wav"></audio>
         Hi Hat
     </button>
     <script src ="soundboard.js"></script>
