@@ -4,10 +4,10 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
     margin: 20px;
     padding: 20px;
     color: #161617;
-    background-color: rgb(198, 195, 195); 
 }
 
 #button_1 {
